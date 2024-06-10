@@ -85,7 +85,16 @@ footer a {
 
 @media (width <= 376px) {
     body {
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        background-image: url(./resources/nikita-tikhomirov-dv7cSiHurKM-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        backdrop-filter: blur(9px);
+        height: 100vh;
     }
 
     .tittle {
@@ -98,9 +107,10 @@ footer a {
     body {
         width: 100%;
     }
-    
+
     .tittle {
         font-size: 80px;
         width: 100%;
+        user-select: none;
     }
 }
