@@ -1,5 +1,96 @@
+@font-face {
+    font-family: mbk;
+    src: url(./resources/Waylimo.ttf);
+}
+
+/*Cor padrao 'FFC0CB' / '901714' */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(./resources/nikita-tikhomirov-dv7cSiHurKM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(9px);
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.site-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+}
+
+.tittle {
+    font-family: mbk;
+    color: pink;
+    font-size: 120px;
+    user-select: none;
+}
+
+.goto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #901714;
+    height: 42px;
+    width: 160px;
+    border-radius: 50px;
+}
+
+.goto a{
+    color: pink;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    bottom: 0%;
+    height: 35px;
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    user-select: none;
+}
+
+footer a {
+    color: #901714;
+}
+
+@media (width <= 376px) {
+    .tittle {
+        font-size: 80px;
+    }
+}
+
+@media (width >= 376px) {
+    .tittle {
+        font-size: 80px;
+    }
 }
