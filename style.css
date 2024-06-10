@@ -84,13 +84,23 @@ footer a {
 }
 
 @media (width <= 376px) {
+    body {
+        width: 100%;
+    }
+
     .tittle {
         font-size: 80px;
+        width: 100%;
     }
 }
 
 @media (width >= 376px) {
+    body {
+        width: 100%;
+    }
+    
     .tittle {
         font-size: 80px;
+        width: 100%;
     }
 }
