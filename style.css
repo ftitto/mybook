@@ -101,6 +101,16 @@ footer a {
         font-size: 80px;
         width: 100%;
     }
+
+    .goto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #901714;
+        height: 42px;
+        width: 160px;
+        border-radius: 50px;
+    }
 }
 
 @media (width >= 376px) {
@@ -112,5 +122,15 @@ footer a {
         font-size: 80px;
         width: 100%;
         user-select: none;
+    }
+
+    .goto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #901714;
+        height: 42px;
+        width: 160px;
+        border-radius: 50px;
     }
 }
