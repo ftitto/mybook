@@ -1,0 +1,46 @@
+@font-face {
+    font-family: mbk;
+    src: url(./resources/Waylimo.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #901714;
+}
+
+header {
+    height: 70px;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+nav a, ul, li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    height: 30px;
+    gap: 30px;
+    color: pink;
+    font-family: mbk;
+    user-select: none;
+}
+
+h1 {
+    color: pink;
+    font-family: mbk;
+    font-size: 40px;
+    user-select: none;
+}
